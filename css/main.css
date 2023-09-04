@@ -42,6 +42,80 @@ video {
   vertical-align: middle;
 }
 
+body div {
+  margin: 10px;
+}
+
+.section-1 {
+  background: var(--green);
+  color: var(--white);
+  display: flex;
+  padding: 5px;
+}
+
+.section-1 .box {
+  background: var(--dark-blue);
+  padding: 10px;
+  margin: 5px;
+}
+
+.section-2 {
+  background: var(--green);
+  color: var(--white);
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+.section-2 .box {
+  background: var(--dark-blue);
+  padding: 10px;
+  margin: 5px;
+}
+
+.section-3 {
+  background: var(--green);
+  color: var(--white);
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 5px;
+}
+
+.section-3 .box {
+  background: var(--dark-blue);
+  padding: 10px;
+  margin: 5px;
+}
+
+.section-4 {
+  background: var(--green);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.section-4 .box {
+  background: var(--dark-blue);
+  padding: 10px;
+  margin: 5px;
+}
+
+.section-5 {
+  background: var(--green);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.section-5 .box {
+  background: var(--dark-blue);
+  padding: 10px;
+  margin: 5px;
+}
+
 /* ====================================
 // base rules
 // ==================================== */
